@@ -1,7 +1,7 @@
 //you must include <stdio.h>, <stdlib.h> and <string.h> to use this file.
 //returns -1 if an error occured, 1 if the program is run as admin, and 0 if run as a user
 
-int checkIfAdmin(){
+int checkifadmin(){
 	char buffer[14];
 	
 	FILE *fp;
